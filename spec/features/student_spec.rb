@@ -1,4 +1,5 @@
 require 'byebug'
+require 'pry'
 require 'rails_helper'
 
 describe 'Route to view' do
