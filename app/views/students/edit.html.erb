@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Student Edits</title>
+  </head>
+  <h1>Hello World</h1>
+  <body>
+    <%= form_for(@student) do |f| %>
+      <p><%= f.label :active %></p>
+      <p><%= f.select :active, [true, false] %></p>
+      <%= f.submit %>
+    <% end %>
+
+  </body>
+</html>
